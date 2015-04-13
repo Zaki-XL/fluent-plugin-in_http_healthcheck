@@ -1,4 +1,4 @@
-# Fluent::Plugin::Json::Serializer
+# Fluent::Plugin::In::HTTP::HealthCheck
 
 ## 概要
 
@@ -17,11 +17,7 @@
 td-agent 0.10.0 以上
 
 ```
-$ cd /usr/local/src
-$ git clone ssh://git@stash.gu3.jp:7999/error-handling/fluent-plugin-json-serializer.git
-$ cd ./fluent-plugin-json-serializer
-$ /usr/lib64/fluent/ruby/bin/rake build
-$ /opt/td-agent/embedded/bin/fluent-gem install pkg/fluent-plugin-json-serializer
+$ gem install fluent-plugin-in_http_healthcheck
 ```
 
 
