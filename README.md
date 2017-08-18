@@ -24,11 +24,11 @@ $ gem install fluent-plugin-in_http_healthcheck
 ## Usage
 
 ```
-<match **>
+<source>
   type http_healthcheck
   port 8888
   bind 0.0.0.0
-</match>
+</source>
 ```
 
 動作確認してみる
